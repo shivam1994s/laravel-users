@@ -1,0 +1,27 @@
+{
+  "name": "shivamgpt08/laravel-users",
+  "description": "User Management of Laravel",
+  "license": "MIT",
+  "autoload": {
+    "psr-0": {
+      "Shivam\\Users\\": "src/"
+    }
+  },
+  "type": "library",
+  "authors": [
+    {
+      "name": "shivamgpt08",
+      "email": "shivamgpt08@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "5.*"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shivam\\Users\\Provider"
+      ]
+    }
+  }
+}
